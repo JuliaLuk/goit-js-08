@@ -38,3 +38,4 @@ function refreshForm() {
 }
 
 refreshForm();
+localStorage.removeItem(STORAGE_KEY);
