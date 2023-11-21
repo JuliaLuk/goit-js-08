@@ -20,7 +20,7 @@ formReg.addEventListener('submit', event => {
 
   console.log(formData);
   formData = {};
-  localStorage.getItem(STORAGE_KEY);
+  localStorage.removeItem(STORAGE_KEY);
   event.target.reset();
 });
 
@@ -38,4 +38,4 @@ function refreshForm() {
 }
 
 refreshForm();
-localStorage.removeItem(STORAGE_KEY);
+// localStorage.removeItem(STORAGE_KEY);
